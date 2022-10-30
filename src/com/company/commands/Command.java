@@ -17,7 +17,7 @@ public class Command implements Performing {
         for(int i = 0; i<command.length; i++){
             switch (command[i]){
                 case "--help":
-                    System.out.printf(getHelp(command[i]).toString());
+                    System.out.printf(getHelp(command[i]).toString());//TODO CHANGE THIS
             }
         }
     }
