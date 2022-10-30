@@ -1,11 +1,15 @@
 package com.company;
 
-import com.company.commands.Command;
+import com.company.functoins.Paint;
 
 public class Main {
 
         public static void main(String[] args) {
-        Command command = new Command(args);
-        command.run();
+                for (String str: args
+                     ) {
+                    Paint paint=new Paint(str);
+                    System.out.printf(paint.getName()+"\n");
+                }
+
         }
 }

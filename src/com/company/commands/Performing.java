@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public interface Performing {
 
-    ArrayList<String> getHelp (String tag);
+    String getHelp (String tag);
     void run();
 }
 
